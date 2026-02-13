@@ -1,0 +1,7 @@
+{
+  "name": "VidSEO - Frame-by-Frame Video SEO Expert",
+  "description": "Professional AI-powered video analysis tool that generates viral SEO strategies for YouTube, TikTok, and Facebook using Gemini 1.5 Pro.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

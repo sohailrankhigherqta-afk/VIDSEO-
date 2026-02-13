@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VidSEO - Free AI Video SEO Tool | Viral Hooks & Tags</title>
+    <meta name="description" content="Get expert SEO strategies for YouTube, TikTok, and Facebook. Analyze your videos frame-by-frame with Gemini 1.5 Pro to identify hooks, keywords, and viral tags." />
+    <meta name="keywords" content="AI Video SEO, YouTube SEO tool, TikTok Hashtags, Facebook Video Strategy, Gemini AI Video Analysis" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #121212;
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .pulse-border {
+        border: 2px dashed #007BFF;
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0% { border-color: #007BFF; box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.4); }
+        70% { border-color: #00D1FF; box-shadow: 0 0 0 10px rgba(0, 123, 255, 0); }
+        100% { border-color: #007BFF; box-shadow: 0 0 0 0 rgba(0, 123, 255, 0); }
+      }
+      .loader-dots div {
+        animation-timing-function: cubic-bezier(0, 1, 1, 0);
+      }
+      .loader-dots div:nth-child(1) { left: 8px; animation: loader-dots1 0.6s infinite; }
+      .loader-dots div:nth-child(2) { left: 8px; animation: loader-dots2 0.6s infinite; }
+      .loader-dots div:nth-child(3) { left: 32px; animation: loader-dots2 0.6s infinite; }
+      .loader-dots div:nth-child(4) { left: 56px; animation: loader-dots3 0.6s infinite; }
+      @keyframes loader-dots1 { 0% { transform: scale(0); } 100% { transform: scale(1); } }
+      @keyframes loader-dots3 { 0% { transform: scale(1); } 100% { transform: scale(0); } }
+      @keyframes loader-dots2 { 0% { transform: translate(0, 0); } 100% { transform: translate(24px, 0); } }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
